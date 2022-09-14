@@ -1,0 +1,22 @@
+/* .color1 {color: #ffba3e;}
+.color2 {color: #fdfa40;}
+.color3 {color: #2d1600;}
+.color4 {color: #7b7672;}
+.color5 {color: #e2e2e2;} */
+
+:root {
+    --laranja-claro:#ffba3e;
+    --amarelo:#fdfa40;
+    --preto-medio: #2d1600;
+    --cinza: #7b7672;
+    --branco-medio : #e2e2e2;
+
+    
+    --opens-sans: 'Open Sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+.container{
+    color: var(--branco-medio);
+    padding-left: 6%;
+    padding-right: 6%;
+}

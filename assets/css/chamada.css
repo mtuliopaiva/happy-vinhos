@@ -1,0 +1,25 @@
+.chamada{
+    background-color: var(--laranja-claro);
+    color: var(--preto-medio);
+    padding-top: 3%;
+    padding-bottom: 4%;
+    text-align: center;
+    
+}
+.chamada__texto{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.chamada__botao{
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--preto-medio);
+    color: var(--laranja-claro);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

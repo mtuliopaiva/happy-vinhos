@@ -5,3 +5,40 @@ Paleta de cores
 .color3 {color: #301400;}
 .color4 {color: #7c7673;}
 .color5 {color: #e2e2e2;}
+
+Título: Happy Vinhos
+
+
+Cabeçalho
+
+Texto alternativo da logo: Logo da Happy Vinhos
+
+Destaques
+Produtos
+Planos
+Sobre
+Blog
+Institucional
+Contato
+
+Chamada
+Os rótulos mais marcantes para a experiência mais marcate.
+Conheça nossos planos
+
+Destaques
+Confira nossas principais ofertas em destaque:
+
+Diferencias:
+
+Comodidade
+Tenha conforto e comodidade, recebendo os melhores rótulos do mundo sem sair de casa.
+
+Avaliações
+Contamos com os mais conceituados sommeliers selecionando os melhores rótulos.
+
+Variedades
+Nós estamos sempre atualizando nossos produtos, possuindo uma enorme variedade.
+
+Frete grátis
+Possuímos entrega grátis para os principais centros do país.
+
