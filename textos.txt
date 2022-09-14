@@ -1,0 +1,7 @@
+Paleta de cores
+
+.color1 {color: #ffaf5a;}
+.color2 {color: #ffe55e;}
+.color3 {color: #301400;}
+.color4 {color: #7c7673;}
+.color5 {color: #e2e2e2;}
