@@ -1,0 +1,64 @@
+.produtos{
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--branco);
+
+    margin: 6% 0;
+    
+}
+.produtos__titulo{
+    font-family: var(--open-sans);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cinza);
+    
+}
+.cartao{
+    border-radius: 5px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 5px 5px 10px 0px #00000010;
+    margin: 3% 0;
+}
+.cartao__conteudo{
+    padding: 5% 0;
+    max-width: 350px;
+}
+.cartao__nome{
+    color: var(--preto-medio);
+    font-family: var(--open-sans);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 5%;
+}
+.cartao__valor{
+    color: var(--preto-medio);
+    font-family: var(--open-sans);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.cartao__localidade, .cartao__tipo,.cartao__uva{
+    color: var(--preto-medio);
+    font-family: var(--open-sans);
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+}
+.botao__adicionar{
+    background-color: var(--laranja-claro);
+    color: var(--preto-medio);
+
+    border: 1px solid var(--laranja-claro);
+    border-radius: 5%;
+
+    font-family: var(--montserrat);
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    text-align: center;
+    padding: 0 3%;
+}

@@ -9,7 +9,9 @@
     --amarelo:#fdfa40;
     --preto-medio: #2d1600;
     --cinza: #7b7672;
+    --cinza-claro: #F7F4F4;
     --branco-medio : #e2e2e2;
+    --branco : #FFF;
 
     
     --opens-sans: 'Open Sans', sans-serif;
@@ -19,4 +21,18 @@
     color: var(--branco-medio);
     padding-left: 6%;
     padding-right: 6%;
+}
+.botao{
+    background-color: var(--branco);
+    color: var(--preto-medio);
+
+    border: 1px solid var(--laranja-claro);
+
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    text-align: center;
+
+    padding: 3% 3%;
 }

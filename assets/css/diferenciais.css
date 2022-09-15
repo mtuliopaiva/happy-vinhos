@@ -1,0 +1,27 @@
+.diferenciais{
+    background-color: var(--laranja-claro);
+    font-family: var(--open-sans);
+    text-align: center;
+    padding-top: 2%;
+    color: var(--preto-medio);
+}
+.diferenciais__titulo{
+    font-size: 2.5rem;
+    font-weight: 700; 
+}
+
+.diferenciais__item-titulo{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 8%;
+}
+.diferenciais__item-conteudo{
+    margin-top: 1%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--cinza-claro);
+    text-align: center;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    
+}
