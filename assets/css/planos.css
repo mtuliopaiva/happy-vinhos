@@ -1,0 +1,121 @@
+.planos{
+    padding-top: 2%;
+    background-color: var(--branco);
+    align-items: center;
+    text-align: center;
+    font-family: var(--open-sans);
+}
+.planos__titulo{
+    color: var(--cinza);
+    
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.planos__descricao{
+    color: var(--preto);
+    font-family: var(--open-sans);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.cartao{
+    color: var(--preto);
+    /* background-color:var(--cinza-claro); */
+
+    /* border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value 
+    applies to top-right corner, third value applies to bottom-right 
+    corner, and fourth value applies to bottom-left corner): */
+    border-radius: 5px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 10px 10px 10px 0px #00000010;
+    margin: 5% 0;
+    padding: 5% 0;
+}
+.plano__nome{
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nome1{
+    background-color: var(--starter-color);
+}
+.nome2{
+    background-color: var(--divine-color);
+}
+.nome3{
+    background-color: var(--fresh-color)
+}
+.nome4{
+    background-color: var(--special-color);
+}
+.nome5{
+    background-color: var(--black-color);
+}
+
+.plano__valor{
+    padding: 10% 0 0 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.valor1{
+    color: var(--starter-color);
+}
+.valor2{
+    color: var(--divine-color);
+}
+.valor3{
+    color: var(--fresh-color);
+}
+.valor4{
+    color: var(--special-color);
+}
+.valor5{
+    color: var(--black-color);
+}
+
+.plano__descricao{
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 2% 0;
+}
+
+.plano__botao{
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 1% 10%;
+}
+.botao1{
+    background-color: var(--starter-color);
+}
+.botao2{
+    background-color: var(--divine-color);
+}
+.botao3{
+    background-color: var(--fresh-color);
+}
+.botao4{
+    background-color: var(--special-color);
+}
+.botao5{
+    background-color: var(--black-color);
+}
+.slides__arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.previous__btn, .next__btn{
+    color: var(--preto);
+    font-size: 2rem;
+
+}
+
+
+.slides{
+    display: none;
+}
