@@ -112,10 +112,8 @@
 .previous__btn, .next__btn{
     color: var(--preto);
     font-size: 2rem;
-
+    cursor: pointer;
 }
-
-
 .slides{
-    display: none;
+    display: block;
 }
