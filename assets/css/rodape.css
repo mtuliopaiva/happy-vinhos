@@ -25,3 +25,28 @@
 .rodape__contato{
     margin: 3% 0 0 0;
 }
+@media screen and (min-width:768px) {
+    .rodape__principal{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .rodape__logo{
+        width: 15%;
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+    .rodape__navegacao{
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+    .rodape__navegacao-links{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+    }
+    .rodape__link{
+        font-size: 1.5rem;
+    }
+}

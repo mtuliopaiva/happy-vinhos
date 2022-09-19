@@ -108,3 +108,28 @@
     height: 0;
     overflow: hidden;
 }
+@media screen and (min-width:768px) {
+    .planos{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: var(--branco);
+        align-items: center;
+        text-align: center;
+        font-family: var(--open-sans);
+    }
+    .planos__item{
+        margin: 0 auto;
+    }
+    .cartao{
+        max-width: 450px;
+    }
+    .plano__descricao{
+        text-align: left;
+        font-size: 1rem;
+        padding: 2% 0;
+    }
+    .slides__arrow{
+        margin: 0% 30%;
+    }
+
+}

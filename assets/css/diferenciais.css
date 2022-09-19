@@ -25,5 +25,25 @@
     text-align: center;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
-    
+}
+
+@media screen and (min-width:768px) {
+    .diferenciais__lista{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .diferenciais__item{
+        width: 40%;
+         
+    }
+    .diferenciais__item-conteudo{
+        padding-top: 3%;
+        text-align: justify;
+        border-left: 0px solid #000000;
+        border-right: 0px solid #000000;
+        line-height: 1.3;
+    }
+
 }

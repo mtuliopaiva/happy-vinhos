@@ -22,11 +22,37 @@
 }
 .cabecalho__navegacao-links{
     display: inline-block;
-
 }
 .cabecalho__link{
     font-size: 2rem;
     font-family: var(--montserrat);
     text-align:  center;
     line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__principal{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cabecalho__logo{
+        width: 15%;
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+    .cabecalho__navegacao{
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+    .cabecalho__navegacao-links{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+    }
+    .cabecalho__link{
+        font-size: 1.5rem;
+    }
+    
 }
