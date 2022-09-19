@@ -115,5 +115,8 @@
     cursor: pointer;
 }
 .slides{
-    display: block;
+    /* display: none; */
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
