@@ -28,9 +28,8 @@ btn.forEach( botao => {
         }
         // console.log(posicao); Teste da posicao selecionada
         card[posicao].style.cssText =  ' opacity: 1;' + 
-        'height: auto;' + 
-        'overflow: hidden;' + 
-        'transition: opacity 0.6s ease-in;';
+        'height: auto;'  + 
+        'transition: opacity 0.5s ease-in;';
     })
     
 })
@@ -39,8 +38,7 @@ function resetPlanos(){
     for(let i=0;i<tam;i++){
         // card[i].style.cssText = 'display:none';
         card[i].style.cssText = ' opacity: 0;' + 
-        'height: 0;' + 
-        'overflow: hidden;' + 
+        'height: 0;'  + 
         'transition: opacity 0.6s ease-in;';
     }
 }

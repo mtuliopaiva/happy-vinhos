@@ -1,0 +1,27 @@
+.rodape{
+    background-color: var(--preto-medio);
+    color: var(--branco);
+    font-family: var(--montserrat);
+
+    align-items: center;
+    text-align: center;
+    padding: 3% 0;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    
+}
+.social{
+    cursor: pointer;
+    margin: 3% 0 0 0;
+}
+.rodape__navegacao{
+    margin: 3% 3%;
+    font-size: 2rem;
+    line-height: 1.3;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+.rodape__contato{
+    margin: 3% 0 0 0;
+}

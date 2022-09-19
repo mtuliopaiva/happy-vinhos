@@ -34,6 +34,9 @@
     text-align: center;
     margin: 0 5%;
 }
+.produtos__vinhos{
+    margin-bottom: 10%;
+}
 .cartao__valor{
     color: var(--preto-medio);
     font-family: var(--open-sans);
@@ -54,7 +57,7 @@
     color: var(--preto-medio);
 
     border: 1px solid var(--laranja-claro);
-    border-radius: 5%;
+    border-radius: 15%;
 
     font-family: var(--montserrat);
     font-size: 1.3rem;
@@ -62,4 +65,18 @@
 
     text-align: center;
     padding: 0 3%;
+}
+.botao{
+    background-color: var(--branco);
+    color: var(--preto-medio);
+
+    border: 1px solid var(--laranja-claro);
+
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    text-align: center;
+    margin-top: 3%;
+    padding: 3% 3%;
 }

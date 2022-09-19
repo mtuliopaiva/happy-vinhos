@@ -1,5 +1,6 @@
 .planos{
-    padding-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: var(--branco);
     align-items: center;
     text-align: center;
@@ -26,7 +27,7 @@
     corner, and fourth value applies to bottom-left corner): */
     border-radius: 5px;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 10px 10px 10px 0px #00000010;
+    box-shadow: 5px 5px 10px 0px #00000010;
     margin: 5% 0;
     padding: 5% 0;
 }
@@ -37,19 +38,19 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
-.nome1{
+.nome1, .botao1{
     background-color: var(--starter-color);
 }
-.nome2{
+.nome2, .botao2{
     background-color: var(--divine-color);
 }
-.nome3{
+.nome3, .botao3{
     background-color: var(--fresh-color)
 }
-.nome4{
+.nome4, .botao4{
     background-color: var(--special-color);
 }
-.nome5{
+.nome5, .botao5{
     background-color: var(--black-color);
 }
 
@@ -88,21 +89,6 @@
     border-radius: 5px;
     padding: 1% 10%;
 }
-.botao1{
-    background-color: var(--starter-color);
-}
-.botao2{
-    background-color: var(--divine-color);
-}
-.botao3{
-    background-color: var(--fresh-color);
-}
-.botao4{
-    background-color: var(--special-color);
-}
-.botao5{
-    background-color: var(--black-color);
-}
 .slides__arrow{
     display: flex;
     flex-direction: row;
@@ -110,12 +96,14 @@
 
 }
 .previous__btn, .next__btn{
-    color: var(--preto);
+    margin-top: 5%;
+    color: var(--branco);
     font-size: 2rem;
     cursor: pointer;
+    background-color: var(--preto-medio);
+    border-radius: 100%;
 }
 .slides{
-    /* display: none; */
     opacity: 0;
     height: 0;
     overflow: hidden;
