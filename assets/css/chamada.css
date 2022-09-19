@@ -23,3 +23,38 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+@media screen and (min-width:1024px) {
+    .chamada{
+        position: relative;
+        padding: 20% 0;
+    }
+    .chamada::before{
+        
+        background-image: url('../img/bg-vinicola.png');
+        background-size: cover;
+
+        /* Criando um pseudo-elemento para deixar a opacidade da imagem menor que 1 */
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
+    }
+    .chamada__texto, .chamada__botao{
+        position: relative;
+        opacity: 1;
+    }
+    .chamada__texto{
+        font-size: 2.5rem;
+    }
+    .chamada__botao{
+        font-size: 2rem;
+    }
+    .chamada__botao:hover{
+        color: var(--branco);
+        transition: 0.5s;
+    }
+    
+}

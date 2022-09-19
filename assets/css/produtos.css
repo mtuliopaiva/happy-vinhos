@@ -79,18 +79,20 @@
     margin-top: 3%;
     padding: 3% 3%;
 }
-.hidden{
+.hidden, .hiddenbs{
     display: none;
 }
 @media screen and (min-width:768px) {
     .hidden{
         display: block;
     }
+    .hiddenbs{
+        display: none;
+    }
     .cartao{
         width: 40%;
     }
     .produtos__vinhos{
-    
         display: flex;
         flex-wrap:wrap;
         flex-direction: row;
@@ -98,5 +100,16 @@
     }
     .produtos__vinho-imagem{
         max-width: 250px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .hidden{
+        display: block;
+    }
+    .hidden,.hiddenbs{
+        display: block;
+    }
+    .cartao{
+        width: 30%;
     }
 }

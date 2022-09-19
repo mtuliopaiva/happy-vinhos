@@ -56,3 +56,21 @@
     }
     
 }
+@media screen and (min-width: 1024px) {
+    .cabecalho__principal{
+        display: flex;
+        flex-direction: row;
+    }
+    .cabecalho__logo{
+        width: 10%;
+        align-items: left;
+        margin: 0 0; 
+    }
+    .cabecalho__titulo{
+        margin: auto 0;
+    }
+    .cabecalho__link:hover{
+        color: var(--laranja-claro);
+        transition: 0.5s;
+    }
+}

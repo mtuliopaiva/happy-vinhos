@@ -19,3 +19,26 @@
     text-align: justify;
     line-height: 1.3;
 }
+.hidden-sobre{
+    display: none;
+}
+@media screen and (min-width:1024px){
+    .sobre__conteudo{
+        font-size: 1.5rem;
+    }
+    .sobre__extra{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+    .sobre__video{
+        position: relative;
+        display: block;
+    }
+    .sobre__imagem{
+        width: 40%;
+        display: block;
+        max-width: 365px;
+    }
+}

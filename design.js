@@ -3,7 +3,8 @@ const btn = document.querySelectorAll('.btn');
 let tam = card.length;
 let posicao = 0;
 
-// PRIMEIRO PLANO A SER MOSTRADO
+
+    // PRIMEIRO PLANO A SER MOSTRADO
 card[posicao].style.cssText = ' opacity: 1;' + 
 'height: auto;';
 
@@ -34,6 +35,7 @@ btn.forEach( botao => {
     
 })
 
+
 function resetPlanos(){
     for(let i=0;i<tam;i++){
         // card[i].style.cssText = 'display:none';
@@ -42,39 +44,3 @@ function resetPlanos(){
         'transition: opacity 0.6s ease-in;';
     }
 }
-
-
-
-
-
-
-
-// slideShow();
-
-// function slideShow(){
-//     for(let i = 1; i<card.length ; i++){
-//     card[i].style.cssText = 'display:none';
-// }
-
-//     next.onclick = function(){
-        
-//         posicao++;
-        
-//         if(posicao >= card.length){
-//             posicao = 0;
-//         }
-//         if(posicao < card.length){
-//         }
-//         console.log(posicao);
-//         card[posicao].style.cssText = 'display:block';
-//     }
-
-//     prev.onclick = function(){
-//         posicao--;
-//         if(posicao < 0){
-//             posicao = 4;
-//         }
-//         console.log(posicao);
-//         card[posicao].style.cssText = 'display:block';
-//     }
-// }
