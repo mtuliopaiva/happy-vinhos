@@ -40,6 +40,7 @@
 }
 .nome1, .botao1{
     background-color: var(--starter-color);
+    
 }
 .nome2, .botao2{
     background-color: var(--divine-color);
@@ -88,6 +89,7 @@
     text-transform: uppercase;
     border-radius: 5px;
     padding: 1% 10%;
+    cursor: pointer;
 }
 .slides__arrow{
     display: flex;
