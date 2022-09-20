@@ -36,7 +36,7 @@ Ao clicar em cada link, o site direciona para o conteúdo específico.
 * Contém o logo da empresa
 * Contém os links das redes sociais da empresa
 * Disponlizado um menu com todas as informações em destaque do site:
-    1 - Produtos
+    1 - Produtos<br/>
     2 - Sobre
     3 - Diferenciais
     4 - Planos
