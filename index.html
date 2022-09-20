@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
 
         <title>Home | Happy Vinhos</title>
 
@@ -35,18 +36,18 @@
 
             <nav class="cabecalho__navegacao">
                 <ul class="cabecalho__navegacao-links">
-                    <li class="cabecalho__link"><a href="#">Produtos</a></li>
-                    <li class="cabecalho__link"><a href="#">Sobre</a></li>
-                    <li class="cabecalho__link"><a href="#">Diferenciais</a></li>
-                    <li class="cabecalho__link"><a href="#">Planos</a></li>
-                    <li class="cabecalho__link"><a href="#">Contato</a></li>
+                    <li class="cabecalho__link"><a onclick="scrollProdutos()">Produtos</a></li>
+                    <li class="cabecalho__link"><a onclick="scrollSobre()">Sobre</a></li>
+                    <li class="cabecalho__link"><a onclick="scrollDiferenciais()">Diferenciais</a></li>
+                    <li class="cabecalho__link"><a onclick="scrollPlanos()">Planos</a></li>
+                    <li class="cabecalho__link"><a onclick="scrollContato()">Contato</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="chamada container">
                 <h2 class="chamada__texto">Os <strong>rótulos</strong> mais <strong>marcantes</strong> para a experiência mais <strong>inesquecivel</strong>.</h2>
-                <a href="#" class="chamada__botao container">Conheça nossos planos</a>
+                <a onclick="scrollPlanos()" class="chamada__botao container">Conheça nossos planos</a>
             </section>
 
             <section class="produtos container">
@@ -297,7 +298,7 @@
         </main>
         <footer class="rodape container">
             <div class="rodape__principal">
-                <img src="./assets/img/logo-happy.svg" alt="Logotipo da Happy Vinhos" class="cabecalho__logo">
+                <img src="./assets/img/logo-happy.svg" alt="Logotipo da Happy Vinhos" class="rodape__logo">
                 <div class="rodape__social">
                     <a href="#"><img class="social" src="./assets/img/icons8-twitter.svg"></a>
                     <a href="#"><img class="social" src="./assets/img/icons8-instagram.svg"></a>
@@ -308,11 +309,11 @@
                 <div>
                     <nav class="rodape__navegacao">
                         <ul class="rodape__navegacao-links">
-                            <li class="rodape__link"><a href="#">Produtos</a></li>
-                            <li class="rodape__link"><a href="#">Sobre</a></li>
-                            <li class="rodape__link"><a href="#">Diferenciais</a></li>
-                            <li class="rodape__link"><a href="#">Planos</a></li>
-                            <li class="rodape__link"><a href="#">Contato</a></li>
+                            <li class="rodape__link"><a onclick="scrollProdutos()">Produtos</a></li>
+                            <li class="rodape__link"><a onclick="scrollSobre()">Sobre</a></li>
+                            <li class="rodape__link"><a onclick="scrollDiferenciais()">Diferenciais</a></li>
+                            <li class="rodape__link"><a onclick="scrollPlanos()">Planos</a></li>
+                            <li class="rodape__link"><a onclick="scrollContato()">Contato</a></li>
                         </ul>
                     </nav>
                 </div>

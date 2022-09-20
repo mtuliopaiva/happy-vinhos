@@ -64,6 +64,7 @@
 
     text-align: center;
     padding: 0 3%;
+    cursor: pointer;
 }
 .botao{
     background-color: var(--branco);
@@ -78,6 +79,7 @@
     text-align: center;
     margin-top: 3%;
     padding: 3% 3%;
+    cursor: pointer;
 }
 .hidden, .hiddenbs{
     display: none;

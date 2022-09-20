@@ -1,7 +1,10 @@
 const card = document.querySelectorAll('.slides');
 const btn = document.querySelectorAll('.btn');
+const cabecalho = document.querySelectorAll('.cabecalho__link');
 let tam = card.length;
 let posicao = 0;
+
+
 
 
     // PRIMEIRO PLANO A SER MOSTRADO
@@ -43,4 +46,31 @@ function resetPlanos(){
         'height: 0;'  + 
         'transition: opacity 0.6s ease-in;';
     }
+}
+
+
+function scrollProdutos() {
+    document.querySelector('.produtos__titulo').scrollIntoView({ 
+        behavior: 'smooth'
+    })
+}
+function scrollSobre() {
+    document.querySelector('.sobre__titulo').scrollIntoView({ 
+        behavior: 'smooth'
+    })
+}
+function scrollDiferenciais() {
+    document.querySelector('.diferenciais__titulo').scrollIntoView({ 
+        behavior: 'smooth'
+    })
+}
+function scrollPlanos() {
+    document.querySelector('.planos__titulo').scrollIntoView({ 
+        behavior: 'smooth'
+    })
+}
+function scrollContato() {
+    document.querySelector('.rodape__contato').scrollIntoView({ 
+        behavior: 'smooth'
+    })
 }

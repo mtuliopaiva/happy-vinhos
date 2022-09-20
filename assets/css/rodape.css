@@ -22,6 +22,9 @@
     border-bottom: 1px solid #FFFFFF;
 
 }
+.rodape__link{
+    cursor: pointer;
+}
 .rodape__contato{
     margin: 3% 0 0 0;
 }
@@ -51,5 +54,10 @@
     }
 }
 @media screen and (min-width:1024px) {
-    
+    .rodape__logo{
+        margin: 0 auto;
+    }
+    .rodape__contato{
+        font-size: 1.5rem;
+    }
 }
